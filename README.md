@@ -11,4 +11,4 @@ Output should be:
 [{"date":"23-9-18","value":"68"},{"date":"24-9-18","value":"109"},{"date":"25-9-18","value":"40"}];
 
 # Solution:
-Refer Solution1.txt
+Refer Solution1.js
