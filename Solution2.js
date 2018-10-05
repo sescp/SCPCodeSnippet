@@ -9,7 +9,6 @@ app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
   extended: true
 })); 
 
-
 app.get('/',function(req,res){
 
 res.send("Hello World");
@@ -22,7 +21,7 @@ console.log("HelloWorld");
 res.send("HelloWorld"+JSON.stringify(req.body));
 
 /*
-// Sending email if required
+// Sending email if required..
 var payload = {
 "recipients": "chinmaya.gorachanda.chaudhury@sap.com",
 "subject": "hiii",
