@@ -23,7 +23,7 @@ res.send("Request Body : "+JSON.stringify(req.body));
 
 /*
 // Sending email if required.. 
-//test
+//test 2
 var payload = {
 "recipients": "<email IDs>",
 "subject": "hiii",
