@@ -16,3 +16,6 @@ Refer Solution1.js
 
 # Problem Statement 2: 5th October 2018
 How to do POST Service call in node.js
+
+# Solution:
+Refer Solution2.js
