@@ -12,3 +12,5 @@ Output should be:
 
 # Solution:
 Refer Solution1.js
+
+Test
