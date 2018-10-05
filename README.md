@@ -1,6 +1,6 @@
 # SCPCodeSnippet
 
-# Problem Statement 1:
+# Problem Statement 1: 4th October 2018
 Say, we have an array of JSON. each JSON object consists of "date" and "value" as attribute key. Here, the objective is to finding the unique records of this JSON Array based on one attribute(say, date). Also summation of other attribute (i.e. value) based on the unique date.
 
 # Input/output:
