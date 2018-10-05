@@ -20,12 +20,13 @@ app.post('/webhook',function(req,res){
 console.log("HelloWorld");
 res.send("HelloWorld"+JSON.stringify(req.body));
 
+
 /*
 // Sending email if required..
 var payload = {
-"recipients": "chinmaya.gorachanda.chaudhury@sap.com",
+"recipients": "<email IDs>",
 "subject": "hiii",
-"template": "Template_PHARMA",
+"template": "Template_SCPCODESNIPPET",
 "mailText": "<HTML><body><h1>"+JSON.stringify(req.body)+"</h1></body></HTML>"
 };
 
