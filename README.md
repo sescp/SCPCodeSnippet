@@ -24,5 +24,6 @@ Refer Solution2.js
 # Problem Statement 3: 10th October 2018
 Implementing onBeforeShow function in SAP UI5
 
-
+# Solution:
+Refer Solution3.js
 
