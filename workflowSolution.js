@@ -15,18 +15,17 @@
 			});	
 		},
 		
-	// 	To complete the user task 
+	// 	To complete the user task ( developer can loop ajax call to complete more then 1 user tasks at same time )
 	
 		completeUserTask : function(){
+                                        var that = this;
+					var token = this._fetchToken();
+					instanceId = "you can get user task instance id from 'getTaskInstances' ";
 					var payload = {
 						"context": that.getContextForInstance(instanceId,token),   
 						 "status": "COMPLETED",
 					};
 					$.ajax({
-							pressProceed : function(){
-							var that = this;
-							var token = this._fetchToken();
-							instanceId = "you can get from ";
 							url : "/bpmworkflowruntimewfs/rest/v1/task-instances/"+instanceId,
 							method: "PATCH",
 							dataType: "json",
