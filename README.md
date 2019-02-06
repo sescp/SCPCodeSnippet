@@ -27,3 +27,5 @@ Implementing onBeforeShow function in SAP UI5
 # Solution:
 Refer Solution3.js
 
+# Problem Statement 4: In some cases you may need to complete more then 1 user task at same time in workflow projects
+Refer workflowSolution.js 
