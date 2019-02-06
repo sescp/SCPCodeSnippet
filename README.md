@@ -27,5 +27,17 @@ Implementing onBeforeShow function in SAP UI5
 # Solution:
 Refer Solution3.js
 
-# Problem Statement 4: Multiple Workflow tasks approval
+# Problem Statement 4: 6th February 2019
+How to achieve multiple Workflow tasks approval
+
+# Solution:
 Refer workflowSolution.js 
+
+# Problem Statement 5: 6th February 2019
+With the help of Reacast creating records and calling  multiple API's of different systems(C4C,Hana DB).
+Based on the user's selection webhook will be triggered with the help of Alias name the same name were included in the call.
+
+
+# Solution:
+Refer RecastNodejs.js 
+
