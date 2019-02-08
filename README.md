@@ -41,3 +41,58 @@ Based on the user's selection webhook will be triggered with the help of Alias n
 # Solution:
 Refer RecastNodejs.js 
 
+
+# Problem Statement 6: 8th Feb 2019
+# Input/output:
+Input: 
+
+Inspection Order	Operation	Inspection Characteristic	CharacteristicName	Inspected	Result
+890000000156	             10	             10	            %Moisture          	1	     60
+890000000156	             10	             20	             %OWM	              1	     80
+890000000156	             10	             30	             O/DM	              1	      A
+890000000156	             10	             40	             %NOS	              1	      40
+890000000156	             10	             50	             %FFA	              1	      30
+
+
+
+Output should be: 
+{
+                "Insplot": "890000000156",
+                "Inspoper": "0010",
+                "ResultChar": [{
+                                                "Inspchar": "0010",
+                                                "CharName": "%Moisture",
+                                                "Inspected": 1,
+                                                "Value": "60"
+                                },
+                                {
+                                                "Inspchar": "0020",
+                                                "CharName": "%OWM",
+                                                "Inspected": 1,
+                                                "Value": "80"
+                                },
+                                {
+                                                "Inspchar": "0030",
+                                                "CharName": "O/DM",
+                                                "Inspected": 1,
+                                                "Value": "A"
+                                },
+                                {
+                                                "Inspchar": "0040",
+                                                "CharName": "%NOS",
+                                                "Inspected": 1,
+                                                "Value": "40"
+                                },
+                                {
+                                                "Inspchar": "0050",
+                                                "CharName": "%FFA",
+                                                "Inspected": 1,
+                                                "Value": "30"
+                                }
+
+                    ]
+}
+
+
+# Solution:
+Refer Solution4.js
