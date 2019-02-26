@@ -41,5 +41,10 @@ Based on the user's selection webhook will be triggered with the help of Alias n
 # Solution:
 Refer RecastNodejs.js 
 
+# Problem Statement 6 : 26th February 2019
+To convert uploded image's to Base64 and sending the converted code(Base64 code) to Hana DB.
+
+# Solution:
+Refer Convert to Base64.js
 
 
