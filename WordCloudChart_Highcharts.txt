@@ -5,7 +5,7 @@
 		<script src="https://code.highcharts.com/highcharts.js"></script>
 		<script src="https://code.highcharts.com/modules/wordcloud.js"></script>
 
-###### view code
+**view code**
 
 // use a container to show wordcloud in it like hbox
 
@@ -15,7 +15,7 @@
 					</content>
 				</Page>
 				
-###### Controller code
+** Controller code **
 
 // use below code to use highcharts in a controller. There are different configuration options for Highcharts.charts. For the //wordcloud chart, chart type is "wordcloud", series contains data in array format to populate the wordcloud, title shows the //title of the wordcloud.
 
