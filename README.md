@@ -47,4 +47,10 @@ To convert uploded image's to Base64 and sending the converted code(Base64 code)
 # Solution:
 Refer Convert to Base64.js
 
+# Problem Statement 7: 3rd May 2019
+How to create a word cloud chart in sapui5
+
+# Solution:
+Refer WordCloudChart_Highcharts.txt
+
 
