@@ -1,0 +1,46 @@
+**index.html**
+
+// add below scripts in index.html for highcharts and highcharts wordcloud
+
+		<script src="https://code.highcharts.com/highcharts.js"></script>
+		<script src="https://code.highcharts.com/modules/wordcloud.js"></script>
+
+###### view code
+
+// use a container to show wordcloud in it like hbox
+
+<Page id="page" title="{i18n>title}">
+					<content>
+						<HBox class="wordcloudclass"/>
+					</content>
+				</Page>
+				
+###### Controller code
+
+// use below code to use highcharts in a controller. There are different configuration options for Highcharts.charts. For the //wordcloud chart, chart type is "wordcloud", series contains data in array format to populate the wordcloud, title shows the //title of the wordcloud.
+
+onAfterRendering: function () {
+			
+			var divid = jQuery(".wordcloudclass")[0].id;
+			Highcharts.chart(divid, {
+
+				chart: {
+					type: "wordcloud"
+				},
+
+				series: [{
+					data: [{
+						name: "Collateralised"
+					}, {
+						name: "Senior Unsecured"
+					}, {
+						name: "Subordinated"
+					}, {
+						name: "Supranational"
+					}]
+				}],
+				title: {
+					text: "World Cloud Chart"
+				}
+			});
+		}
